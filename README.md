@@ -2,7 +2,9 @@
 
 [![Docker](https://img.shields.io/docker/pulls/brandazine/postgres-e2econtainer.svg)](https://hub.docker.com/r/brandazine/postgres-e2econtainer)
 
-A High-performance PostgreSQL docker imaeg optimized for E2E testing, with unnecessary features such as logging, recovery, and synchronization disabled for faster query execution.
+> **DISCLAIMER: This image is intended for testing purposes only and MUST not be used in production environments.**
+
+A High-performance PostgreSQL docker image optimized for E2E testing, with unnecessary features such as logging, recovery, and synchronization disabled for faster query execution.
 
 In our testing environment, we've seen nearly 3x performance improvements in query execution times compared to the default PostgreSQL image.
 
